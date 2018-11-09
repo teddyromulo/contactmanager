@@ -1,0 +1,60 @@
+
+body,
+div,
+table {font-size:12px;}
+
+.app-body {min-height:700px;}
+
+.is-valid { border: 1px solid green;}
+.is-invalid { border: 1px solid red;}
+
+/*head*/
+div.header{
+  background-color:#014a99;
+}
+
+.header-links {color:#ededed}
+.header-links a {line-height: 62px; color: #ededed; margin: 0 10px;}
+.shadow {box-shadow: 5px 5px #ededed;}
+
+/*login*/
+.login-app {border:1px solid #ddd; border-radius: 8px; padding: 20px; margin-top: 40px;}
+.login-app h4 { font-size: 1.3em; text-align: center;}
+.login-app input[type=text] { text-align: center;}
+.login-app .form-control { text-transform: uppercase;}
+
+/*logout*/
+.logout {height: 50px; background-color: #ededed; width:100%; display: block;} 
+.logout a {  line-height:50px;  float: right; padding-right: 10px; }
+
+/*customers*/
+.add-customers a.btn-add:hover {color:#fff !important; }
+.text-capt { text-transform: uppercase !important;}
+
+.list-customer table > thead>tr>th { background-color:#3a92f6; color:#fff; }
+
+.tablepadd-8px>tbody>tr>td, 
+.tablepadd-8px>tbody>tr>th, 
+.tablepadd-8px>tfoot>tr>td, 
+.tablepadd-8px>tfoot>tr>th, 
+.tablepadd-8px>thead>tr>td, 
+.tablepadd-8px>thead>tr>th { padding: 6px;}
+
+/*add customer*/
+
+/*search bar*/
+
+
+/*special css*/
+.btn-xs {
+  padding: .20rem .40rem;
+  font-size: .675rem;
+  border-radius: .2rem;
+}
+
+.btn-orange{ background-color: #ff5700; color:#ededed; cursor: pointer;} 
+.btn-orange:hover { color:#fff;}
+
+/*message box*/
+.msg-box-success { border:1px dashed green; background-color: #fbf3f3;color:green;font-size: 1.2em;padding: 10px;}
+.msg-box-error { border:1px dashed #F00; background-color: #fbf3f3;color:#F00;font-size: 1.2em;padding: 10px;}
